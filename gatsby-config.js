@@ -1,6 +1,7 @@
 module.exports = {
+  pathPrefix:"/cm-phaser-library-docs",
   siteMetadata: {
-    title: 'Gatsby Markdown Starter',
+    title: 'CM Phaser Library Documentation',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

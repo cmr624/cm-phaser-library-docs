@@ -3,27 +3,14 @@ title: Quick Start
 sidebar: Docs
 showTitle: true
 ---
-The website is based on Gatsby, full documentation for Gatsby lives [on the website](https://gatsbyjs.org/).
+While the repository can be developed by itself, its most common use case is by using a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) in a template Phaser Typescript repository. If we get there, we can think about distributing and a CDN if necessary.
 
-## Create a Gatsby site
+## Installation
 
-  Use the Gatsby CLI to create a new site, specifying the default starter.
+1. For use with my GitHub template that has the library marked as a submodule
+    1. `git clone https://github.com/cmr624/cm-phaser-template.git`
+    2. `cd cm-phaser-template && npm i`
 
-  ```sh
-  gatsby new gatsby-starter-markdown https://github.com/cvluca/gatsby-starter-markdown
-  ```
-
-## Start developing
-
-  Navigate into your new site’s directory and start it up.
-
-  ```sh
-  cd gatsby-starter-markdown/
-  gatsby develop
-  ```
-
-## Open the source code and start editing
-
-  Your site is now running at `http://localhost:8000`!
-
-  *Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).*
+2. For primary development with some other setup
+    1. `git clone https://github.com/cmr624/cm-phaser-library.git`
+    2. `cd cm-phaser-library && npm i`

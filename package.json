@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "gatsby-plugin-remove-trailing-slashes": "^2.1.6",
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^2.2.0",
     "mem": "^5.1.1",
     "prettier": "^1.18.2"
   },
