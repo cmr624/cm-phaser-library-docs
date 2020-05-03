@@ -8,9 +8,9 @@ showTitle: true
 
 CM-Phaser-Library is an open source, accessible Phaser 3 library built in Typescript.
 
-Click [here](quick-start.md) to start developing.
+Click [here](quick-start) to start developing.
 
-Click [here](contribute.md) to learn how to contribute either to the docs or the library itself.
+Click [here](contribute) to learn how to contribute either to the docs or the library itself.
 
 ## Goals
 
