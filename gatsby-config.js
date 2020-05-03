@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix:"/cm-phaser-library-docs",
   siteMetadata: {
-    title: 'CM Phaser Library Documentation',
+    title: 'CM Phaser Docs',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
