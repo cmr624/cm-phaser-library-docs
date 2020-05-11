@@ -4,7 +4,16 @@
     "name": "Docs",
     "child_entries": [
       "Get Started",
-      "Guide"
+      "Accessibility",
+      "Doc Site Guide"
+    ]
+  },
+  {
+    "entry": "Accessibility",
+    "name": "Accessibility",
+    "items": [
+      "docs/accessibility/introduction",
+      "docs/accessibility/subtitles"
     ]
   },
   {
@@ -17,13 +26,13 @@
     ]
   },
   {
-    "entry": "Guide",
-    "name": "Guide",
+    "entry": "Doc Site Guide",
+    "name": "Doc Site Guide",
     "items": [
-      "docs/guide/anchor",
-      "docs/guide/contents",
-      "docs/guide/menu-items",
-      "docs/guide/sidebar"
+      "docs/doc-guide/anchor",
+      "docs/doc-guide/contents",
+      "docs/doc-guide/menu-items",
+      "docs/doc-guide/sidebar"
     ]
   },
   {
