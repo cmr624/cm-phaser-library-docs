@@ -8,6 +8,8 @@ showTitle: true
 
 CM-Phaser-Library is an open source, accessible Phaser 3 library built in Typescript.
 
+To install with npm, use `npm i cm-phaser-library`
+
 Click [here](quick-start) to start developing.
 
 Click [here](contribute) to learn how to contribute either to the docs or the library itself.
@@ -21,7 +23,8 @@ In any Phaser scene, you can import any of the exported objects from the library
 #### Example : StandardKeyboardInput
 
 ```javascript
-import {StandardKeyboardInput} from 'cm-phaser-library/src/input/standard.ts'
+import {standardInput} from 'cm-phaser-library';
+const StandardKeyboardInput = standardInput.StandardKeyboardInput;
 
 class MyScene extends Phaser.Scene {
     // a reference for our scene for keys. here we can call our keyboard controls
@@ -48,7 +51,7 @@ class MyScene extends Phaser.Scene {
 #### Example : Default Text
 
 ```javascript
-import {defaultText} from 'cm-phaser-library/scr/objects/textStyles.ts';
+import {textStyles} from 'cm-phaser-library'
 
 class MainScene extends Phaser.Scene {
     constructor(){
@@ -57,7 +60,7 @@ class MainScene extends Phaser.Scene {
     create(){
 
         // we use the text style we imported from the library
-        this.add.text(0, 0, 'hello, world', defaultText);
+        this.add.text(0, 0, 'hello, world', textStyles.defaultText);
     }
 }
 
@@ -65,7 +68,7 @@ class MainScene extends Phaser.Scene {
 
 ### Inheriting from classes
 
-You can also inherit from custom classes. We can look at a trivial example with the "BaseSprite" class.
+You can also inherit from custom classes.
 
 The "BaseSprite" class basically stores a reference to the current scene the sprite is in, and adds itself to the scene.
 
@@ -78,8 +81,8 @@ This is the "Base Player Arcade" class which basically has a reference to our ke
 This sometimes becomes confusing, because when your `this` object *is* an actual scene, there's a property on that object called `this.scene` which references [Phaser's scene manager](https://photonstorm.github.io/phaser3-docs/Phaser.Scenes.SceneManager.html), which is a different object.
 
 ```javascript
-import { BaseArcadeSprite } from './../base';
-
+import {baseSprite} from 'cm-phaser-library'
+const BaseArcadeSprite = baseSprite.BaseArcadeSprite;
 /**
  * BasePlayerArcade
  * @classdesc Base Arcade "Player" which basically is just the base arcade sprite with a reference to the keys
