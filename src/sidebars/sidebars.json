@@ -13,7 +13,8 @@
     "name": "Accessibility",
     "items": [
       "docs/accessibility/introduction",
-      "docs/accessibility/subtitles"
+      "docs/accessibility/subtitles",
+      "docs/accessibility/tabbable"
     ]
   },
   {
